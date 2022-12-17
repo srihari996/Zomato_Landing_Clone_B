@@ -2,3 +2,5 @@
 the zomato clone update
 
 zomato clone work process
+
+click on the readme.md file and readit
