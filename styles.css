@@ -115,3 +115,49 @@
         width: 95%;
     }
 }
+
+
+.container{
+    margin: 3rem auto;
+    width:90%;
+    padding:auto;
+}
+
+.container__we_offer{
+    margin: 3rem auto;
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.we__offer_card{
+    border-radius: 10px;
+    overflow:hidden;
+    /* background-color: aqua; */
+    border: 1px solid gray ;
+    transition:all 0.46s ease;
+}
+.we__offer_card:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}
+
+.we__offer_card img{
+    width:120%;
+    height: 190px;
+    object-fit: cover;
+    object-position:center;
+}
+.we__offer_content{
+    padding:10px;
+}
+.we__offer_content h1{
+   font-size: 20px;
+   font-weight: 400;
+}
+.we__offer_content p{
+    font-size: 12px;
+}
+
