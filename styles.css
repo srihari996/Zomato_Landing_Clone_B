@@ -7,7 +7,7 @@
 }
 .hero__section{
     background-image: url(./images/heroSectionBackground.png);
-    min-height: 65vh;
+    min-height: 60vh;
     background-size: cover;
     background-position: center;
     color:white;
@@ -37,6 +37,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    display:none;
 }
 
 .hero__section_container{
@@ -67,16 +68,18 @@
     border-radius: 10px;
 }
 
-.input_container_location,.input_container_search{
+.input_container_location,
+.input_container_search{
     padding:6px;
     border:none;
     border-radius: 15px;
+    width:96%;
     outline:none;
 }
 
 .input_container_location{
     width: 35%;
-    border-right: 2px solid gray;
+    border-right: 3px solid gray;
 }
 
 .input_container_search{
@@ -118,11 +121,11 @@
 }
 
 
-.container{
+/* .container{
     margin: 3rem auto;
     width:90%;
     padding:auto;
-}
+} */
 
 .container__we_offer{
     margin: 3rem auto;
